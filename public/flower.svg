@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="faviconGlassOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".85"/>
+      <stop offset="60%" stop-color="#D2E4FC" stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#A3C5F8" stop-opacity=".15"/>
+    </linearGradient>
+
+    <linearGradient id="faviconGlassMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6F0FE" stop-opacity=".8"/>
+      <stop offset="50%" stop-color="#87B0F0" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#4A75D0" stop-opacity=".3"/>
+    </linearGradient>
+
+    <linearGradient id="faviconRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="70%" stop-color="#D5E5FC" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#87B0F0" stop-opacity=".3"/>
+    </linearGradient>
+
+    <radialGradient id="faviconDarkCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#224498" stop-opacity=".98"/>
+      <stop offset="45%" stop-color="#3B63C8" stop-opacity=".85"/>
+      <stop offset="80%" stop-color="#6993E4" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#A8C9FC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer six-circle glass flower -->
+  <g>
+    <circle cx="50" cy="34" r="19" fill="url(#faviconGlassOuter)" stroke="url(#faviconRim)" stroke-width=".8"/>
+    <circle cx="63.8" cy="42" r="19" fill="url(#faviconGlassOuter)" stroke="url(#faviconRim)" stroke-width=".8"/>
+    <circle cx="63.8" cy="58" r="19" fill="url(#faviconGlassOuter)" stroke="url(#faviconRim)" stroke-width=".8"/>
+    <circle cx="50" cy="66" r="19" fill="url(#faviconGlassOuter)" stroke="url(#faviconRim)" stroke-width=".8"/>
+    <circle cx="36.2" cy="58" r="19" fill="url(#faviconGlassOuter)" stroke="url(#faviconRim)" stroke-width=".8"/>
+    <circle cx="36.2" cy="42" r="19" fill="url(#faviconGlassOuter)" stroke="url(#faviconRim)" stroke-width=".8"/>
+
+    <!-- Inner six-circle ring -->
+    <circle cx="50" cy="40" r="12" fill="url(#faviconGlassMid)" stroke="url(#faviconRim)" stroke-width=".6"/>
+    <circle cx="58.6" cy="45" r="12" fill="url(#faviconGlassMid)" stroke="url(#faviconRim)" stroke-width=".6"/>
+    <circle cx="58.6" cy="55" r="12" fill="url(#faviconGlassMid)" stroke="url(#faviconRim)" stroke-width=".6"/>
+    <circle cx="50" cy="60" r="12" fill="url(#faviconGlassMid)" stroke="url(#faviconRim)" stroke-width=".6"/>
+    <circle cx="41.4" cy="55" r="12" fill="url(#faviconGlassMid)" stroke="url(#faviconRim)" stroke-width=".6"/>
+    <circle cx="41.4" cy="45" r="12" fill="url(#faviconGlassMid)" stroke="url(#faviconRim)" stroke-width=".6"/>
+
+    <!-- Core -->
+    <circle cx="50" cy="50" r="15" fill="url(#faviconDarkCore)"/>
+    <circle cx="50" cy="50" r="7" fill="#234599" opacity=".95"/>
+    <circle cx="50" cy="50" r="3" fill="#FFFFFF" opacity=".95"/>
+  </g>
+</svg>
